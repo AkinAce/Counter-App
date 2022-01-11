@@ -46,7 +46,7 @@ class Counters extends React.Component {
             <div>
              <button
              onClick={this.props.onReset} 
-             className= "btn btn-primary btn-sm m-2">Reset</button>
+             className= "btn btn-primary btn-sm m-2">Resets</button>
              
             {/*< Counter />*/} {/* Hardcoding the counter component. deleted when local state was removed */}
 
