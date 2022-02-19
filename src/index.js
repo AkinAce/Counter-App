@@ -6,11 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
 import Counter from "./components/counter";
 import Counters from "./components/counters"
-import love from "./components/love"
+import Love from "./components/love"
 
 ReactDOM.render(
   <React.StrictMode>
-    <love />
+    <Love/>
   </React.StrictMode>,
   document.getElementById("root")
 );
