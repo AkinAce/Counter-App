@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'Ace';
+  src: local('Ace'), url(./fonts/ace-bold.woff2) format('woff2');}
+@font-face {
+  font-family: 'Bash';
+  src: local('Bash'), url(./fonts/ace-book.woff2) format('woff2');}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Ace, Bash, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
