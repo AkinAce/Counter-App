@@ -17,3 +17,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.top-container{
+  min-height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.timer{
+  padding: 0 auto;
+}
+.film{
+  height:400px;
+}

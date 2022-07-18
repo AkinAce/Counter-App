@@ -7,11 +7,14 @@ import "bootstrap/dist/css/bootstrap.css";
 import Counter from "./components/counter";
 import Counters from "./components/counters"
 import Love from "./components/love"
+import Project from "./components/project";
+import Lover from "./components/lover";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
+    <Lover/>
     <Love/>
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById("root")
 );
 
